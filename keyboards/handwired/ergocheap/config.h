@@ -46,7 +46,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE   5
-#define TAPPING_TERM 500
+#define TAPPING_TERM 200
 
 /*
  * Feature disable options
@@ -58,6 +58,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* disable print */
 //#define NO_PRINT
+//#define DEBUG_MATRIX_SCAN_RATE
 
 /* disable action features */
 //#define NO_ACTION_LAYER
